@@ -25,3 +25,9 @@ void ArrayToFill (string [] array1, string [] array2)
     }
     Console.WriteLine();
  }
+
+string [] array1 = new string [10] {"1230", "Gr", "7890", "ee", "98746", "tin", "gjhrheh", "qwerty", "gs!", "loll"};
+string [] array2 = new string [array1.Length];
+ 
+ ArrayToFill(array1, array2);
+ PrintArray(array2);
